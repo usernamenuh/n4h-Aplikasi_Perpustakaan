@@ -128,9 +128,3 @@ Jika kamu suka dengan apa yang saya buat dan ingin mendukung, silakan traktir sa
 [![](https://visitcount.itsvg.in/api?id=usernamenuh&icon=0&color=0)](https://visitcount.itsvg.in)
 
 [![BuyMeACoffee](https://img.shields.io/badge/Traktir%20Kopi-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/muhammadena)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usernamenuh/usernamenuh/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usernamenuh/usernamenuh/output/pacman-contribution-graph.svg">
-  <img alt="grafik kontribusi pacman" src="https://raw.githubusercontent.com/usernamenuh/usernamenuh/output/pacman-contribution-graph.svg">
-</picture>
