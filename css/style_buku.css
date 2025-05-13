@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 110px;
+  height: 100vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: rgba(70,130,180, 255);
+}
+
+.sidebar:hover {
+  width: 240px;
+  transition: 0.5s;
+}
+
+.logo {
+  height: 80px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.menu {
+  margin-top: 100px;
+  height: 88%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  padding: 1rem;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover,
+.active {
+  background: #e0e0e058;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu a span {
+  overflow: hidden;
+}
+
+.menu a i {
+  font-size: 1.2rem;
+}
+
+.logout {
+margin-top: 300px;
+}
+
+.main--content {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebe9e9;
+  width: 100%;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  background: rgba(70,130,180, 255);
+}
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  width: calc(100% / 2 - 20px);
+ margin-bottom: 15px;
+}
+
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.fileimg {
+  color: transparent;
+}
+
+.fileimg::-webkit-file-upload-button {
+  margin-top: 5px;
+  background: transparent;
+  border: none;
+  padding: 7px 80px;
+  color: #110a0a79;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.user-details .input-box input,
+.user-details .input-box select {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.9s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid,
+.user-details .input-box select:focus,
+.user-details .input-box select:valid {
+  border-color: rgba(70,130,180, 255);
+}
+
+
+
+form .button {
+  height: 45px;
+  margin: 45px 0;
+}
+
+form .button input {
+  height: 100%;
+  width: 41%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: rgba(70,130,180, 255);
+  transition: all 0.9s ease;
+}
+
+form .button a {
+  padding-left: 100px;
+  padding: 10px;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: rgba(70,130,180, 255);
+  transition: all 0.9s ease;
+}
+
+form .button a:hover {
+  background: rgba(70,50,180, 255);
+}
+
+form .button input:hover {
+  background: rgba(70,50,180, 255);
+}
+
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+  form .user-details .input-box {
+   width: 100%;
+   margin-bottom: 15px;
+  }
+
+  form .type-book .category {
+    width: 100%;
+
+  }
+  .container form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .user-details::-webkit-scrollbar {
+    width: 0;
+  }
+
+  form .button input {
+    height: 70%;
+    width: 30%;
+    font-size: 11px;
+    
+  }
+
+  form .button a {
+
+    font-size: 14px;
+  }
+}
+
