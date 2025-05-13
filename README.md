@@ -73,14 +73,12 @@ Project ini saya buat untuk mengasah kemampuan backend dan manajemen data, dan k
 ### 📖 Daftar Peminjaman
 ![Daftar Peminjaman](Dokumentasi/daftar-peminjaman.png)
 
-### 📊 Export Excel
-![Export Excel](dokumentasi/export.png)
+### 📊 Export
+![Export](Dokumentasi/export.png)
 
 ### 🧑‍💻 User Dashboard
-![Export Excel](dokumentasi/dashboard-user.png)
+![Dashboard User](Dokumentasi/dashboard-user.png)
 
-### 🧭 Entity Relationship Diagram (ERD)
-![ERD](Dokumentasi/erd.png)
 
 ### 🧭 Entity Relationship Diagram (ERD)
 ![ERD](Dokumentasi/erd.png)
